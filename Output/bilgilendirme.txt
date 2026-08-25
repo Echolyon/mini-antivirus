@@ -1,0 +1,48 @@
+MiniAV, Windows ortamında temel seviyede zararlı yazılım analizi yapabilen, hafif ve kullanıcı dostu bir güvenlik aracıdır.
+
+Bu yazılım profesyonel antivirüslerin yerine geçmek için değil, ek bir güvenlik katmanı sağlamak ve farkındalık oluşturmak amacıyla geliştirilmiştir.
+
+Özellikler
+- Klasör Bazlı Tarama: Hedef dizinlerde hızlı tarama.
+- Heuristik Analiz: PowerShell ve script dosyaları üzerinde davranışsal inceleme.
+- SHA256 Hash Kontrolü: Bilinen zararlı imzalarıyla eşleşme kontrolü.
+- Base64 İçerik Analizi: Gizlenmiş komutların tespiti.
+- Risk Skoru Motoru: Dosyaları tehlike seviyesine göre puanlama.
+- Otomatik Karantina: Tespit edilen tehditleri izole etme.
+- Geri Yükleme: Karantinaya alınan dosyaları güvenle geri döndürme.
+- Log Kayıt Sistemi: Tüm işlemlerin detaylı raporlanması.
+- Modern GUI: Basit ve anlaşılır kullanıcı arayüzü.
+
+Analiz Mekanizması
+MiniAV, dosyaları şu katmanlardan geçirerek analiz eder:
+
+- Uzantı Analizi: Riskli dosya türlerinin tespiti.
+- İmza Kontrolü: Bilinen zararlı hash veri tabanıyla karşılaştırma.
+- Davranışsal Tespit: HTTP indirme komutları, Defender devre dışı bırakma ve kalıcılık (persistence) sağlayan komutlar.
+- Domain Kontrolü: Güvenilir/Güvenilmez domain sorguları.
+
+Sınıflandırma
+Tarama sonucunda dosyalar üç kategoriden birine atanır:
+
+CLEAN (Temiz)
+SUSPICIOUS (Şüpheli)
+MALWARE (Zararlı Yazılım)
+
+Karantina Sistemi
+- Yüksek riskli dosyalar otomatik olarak quarantine/ klasörüne taşınır.
+- Karantina arayüz üzerinden görüntülenebilir.
+- Dosyalar kalıcı olarak silinebilir veya eski konumuna geri yüklenebilir.
+
+Gerçek zamanlı koruma (Real-time protection) sağlamaz.
+%100 tespit garantisi vermez.
+Sisteminizde mutlaka lisanslı bir antivirüs bulunmalıdır.
+
+SmartScreen Hakkında: Uygulama dijital imzalı olmadığı için Windows uyarı verebilir. "Ek Bilgi" -> "Yine de Çalıştır" diyerek devam edebilirsiniz.
+
+Gizlilik ve Güvenlik
+İnternete veri göndermez.
+Arka planda gizli işlem yapmaz.
+Registry değişikliği yapmaz ve sistem dosyalarına müdahale etmez.
+
+Sorumluluk Reddi
+Bu yazılımın kullanımı tamamen kullanıcı sorumluluğundadır. Yanlış pozitif veya negatif durumlardan doğabilecek sonuçlardan geliştirici sorumlu tutulamaz. Detaylar için LICENSE dosyasına bakınız.

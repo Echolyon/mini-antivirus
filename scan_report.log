@@ -1,0 +1,172 @@
+[2026-02-09 20:43:15] | MALWARE | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\clear.ps1 | Reasons=HASH_MATCH,QUARANTINED
+[2026-02-09 20:43:15] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\fakeb64.txt | Reasons=NONE
+[2026-02-09 20:43:15] | MALWARE | Risk=60 | C:\Users\berke\Desktop\mini_av\test_folder\microsoft.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-09 20:43:15] | MALWARE | Risk=60 | C:\Users\berke\Desktop\mini_av\test_folder\roblox.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-09 20:49:43] | MALWARE | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\clear.bat | Reasons=HASH_MATCH
+[2026-02-09 20:49:43] | MALWARE | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\clear.ps1 | Reasons=HASH_MATCH
+[2026-02-09 20:49:43] | SUSPICIOUS | Risk=110 | C:\Users\berke\Desktop\mini_av\test_folder\eicar.com | Reasons=HEURISTICS_TRIGGER
+[2026-02-09 20:49:43] | SUSPICIOUS | Risk=110 | C:\Users\berke\Desktop\mini_av\test_folder\eicar_test.com | Reasons=HEURISTICS_TRIGGER
+[2026-02-09 20:49:43] | MALWARE | Risk=60 | C:\Users\berke\Desktop\mini_av\test_folder\evil.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-09 20:49:43] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\fakeb64.txt | Reasons=NONE
+[2026-02-09 20:49:43] | MALWARE | Risk=60 | C:\Users\berke\Desktop\mini_av\test_folder\malware.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-09 20:49:43] | MALWARE | Risk=40 | C:\Users\berke\Desktop\mini_av\test_folder\microsoft.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-09 20:49:43] | MALWARE | Risk=40 | C:\Users\berke\Desktop\mini_av\test_folder\roblox.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-09 20:49:43] | MALWARE | Risk=40 | C:\Users\berke\Desktop\mini_av\test_folder\safe.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-09 20:54:26] | MALWARE | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\clear.bat | Reasons=HASH_MATCH
+[2026-02-09 20:54:26] | MALWARE | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\clear.ps1 | Reasons=HASH_MATCH
+[2026-02-09 20:54:26] | SUSPICIOUS | Risk=110 | C:\Users\berke\Desktop\mini_av\test_folder\eicar.com | Reasons=HEURISTICS_TRIGGER
+[2026-02-09 20:54:26] | SUSPICIOUS | Risk=110 | C:\Users\berke\Desktop\mini_av\test_folder\eicar_test.com | Reasons=HEURISTICS_TRIGGER
+[2026-02-09 20:54:26] | MALWARE | Risk=70 | C:\Users\berke\Desktop\mini_av\test_folder\evil.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-09 20:54:26] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\fakeb64.txt | Reasons=NONE
+[2026-02-09 20:54:26] | MALWARE | Risk=70 | C:\Users\berke\Desktop\mini_av\test_folder\malware.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-09 20:54:26] | MALWARE | Risk=50 | C:\Users\berke\Desktop\mini_av\test_folder\microsoft.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-09 20:54:26] | MALWARE | Risk=50 | C:\Users\berke\Desktop\mini_av\test_folder\roblox.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-09 20:54:26] | MALWARE | Risk=50 | C:\Users\berke\Desktop\mini_av\test_folder\safe.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-09 21:02:37] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\clear.bat | Reasons=NONE
+[2026-02-09 21:02:37] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\clear.ps1 | Reasons=NONE
+[2026-02-09 21:02:37] | MALWARE | Risk=110 | C:\Users\berke\Desktop\mini_av\test_folder\eicar.com | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-09 21:02:37] | MALWARE | Risk=110 | C:\Users\berke\Desktop\mini_av\test_folder\eicar_test.com | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-09 21:02:37] | MALWARE | Risk=110 | C:\Users\berke\Desktop\mini_av\test_folder\evil.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-09 21:02:37] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\fakeb64.txt | Reasons=NONE
+[2026-02-09 21:02:37] | MALWARE | Risk=110 | C:\Users\berke\Desktop\mini_av\test_folder\malware.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-09 21:02:37] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\microsoft.ps1 | Reasons=NONE
+[2026-02-09 21:02:37] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\roblox.ps1 | Reasons=NONE
+[2026-02-09 21:02:37] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\safe.ps1 | Reasons=NONE
+[2026-02-10 00:37:33] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\clear.bat | Reasons=NONE
+[2026-02-10 00:37:33] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\clear.ps1 | Reasons=NONE
+[2026-02-10 00:37:33] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\fakeb64.txt | Reasons=NONE
+[2026-02-10 00:37:33] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\microsoft.ps1 | Reasons=NONE
+[2026-02-10 00:37:33] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\roblox.ps1 | Reasons=NONE
+[2026-02-10 00:37:33] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\safe.ps1 | Reasons=NONE
+[2026-02-10 01:04:20] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\clear.bat | Reasons=NONE
+[2026-02-10 01:04:20] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\clear.ps1 | Reasons=NONE
+[2026-02-10 01:04:20] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\fakeb64.txt | Reasons=NONE
+[2026-02-10 01:04:20] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\microsoft.ps1 | Reasons=NONE
+[2026-02-10 01:04:20] | CLEAN | Risk=10 | C:\Users\berke\Desktop\mini_av\test_folder\roblox.ps1 | Reasons=NONE
+[2026-02-10 01:04:20] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\safe.ps1 | Reasons=NONE
+[2026-02-10 01:11:50] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\clear.bat | Reasons=NONE
+[2026-02-10 01:11:50] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\clear.ps1 | Reasons=NONE
+[2026-02-10 01:11:50] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\fakeb64.txt | Reasons=NONE
+[2026-02-10 01:11:50] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\malware.ps1 | Reasons=NONE
+[2026-02-10 01:11:50] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\microsoft.ps1 | Reasons=NONE
+[2026-02-10 01:11:50] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\roblox.ps1 | Reasons=NONE
+[2026-02-10 01:11:50] | CLEAN | Risk=0 | C:\Users\berke\Desktop\mini_av\test_folder\safe.ps1 | Reasons=NONE
+[2026-02-10 01:29:21] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test_folder\clear.bat | Reasons=NONE
+[2026-02-10 01:29:21] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test_folder\clear.ps1 | Reasons=NONE
+[2026-02-10 01:29:21] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test_folder\fakeb64.txt | Reasons=NONE
+[2026-02-10 01:29:21] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test_folder\malware.ps1 | Reasons=NONE
+[2026-02-10 01:29:21] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test_folder\microsoft.ps1 | Reasons=NONE
+[2026-02-10 01:29:21] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test_folder\roblox.ps1 | Reasons=NONE
+[2026-02-10 01:29:21] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/test_folder\safe.ps1 | Reasons=NONE
+[2026-02-10 01:33:02] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test_folder\clear.bat | Reasons=NONE
+[2026-02-10 01:33:02] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test_folder\clear.ps1 | Reasons=NONE
+[2026-02-10 01:33:02] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test_folder\fakeb64.txt | Reasons=NONE
+[2026-02-10 01:33:02] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test_folder\malware.ps1 | Reasons=NONE
+[2026-02-10 01:33:02] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test_folder\microsoft.ps1 | Reasons=NONE
+[2026-02-10 01:33:02] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test_folder\roblox.ps1 | Reasons=NONE
+[2026-02-10 01:33:02] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test_folder\safe.ps1 | Reasons=NONE
+[2026-02-10 01:34:56] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test\evil.ps1 | Reasons=NONE
+[2026-02-10 01:34:56] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test\maybe.ps1 | Reasons=NONE
+[2026-02-10 01:34:56] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test\safe.ps1 | Reasons=NONE
+[2026-02-10 01:47:38] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test\evil.ps1 | Reasons=NONE
+[2026-02-10 01:47:38] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test\maybe.ps1 | Reasons=NONE
+[2026-02-10 01:47:38] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/test\safe.ps1 | Reasons=NONE
+[2026-02-10 01:49:01] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/teetststs\coksafe.ps1 | Reasons=NONE
+[2026-02-10 01:49:01] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/teetststs\maybesisi.ps1 | Reasons=NONE
+[2026-02-10 01:49:01] | CLEAN | Risk=0 | C:/Users/berke/Desktop/mini_av/teetststs\soevil.ps1 | Reasons=NONE
+[2026-02-10 01:53:25] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\coksafe.ps1 | Reasons=NONE
+[2026-02-10 01:53:25] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\maybesisi.ps1 | Reasons=NONE
+[2026-02-10 01:53:25] | MALWARE | Risk=110 | C:/Users/berke/Desktop/mini_av/teetststs\soevil.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-10 02:07:02] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\coksafe.ps1 | Reasons=NONE
+[2026-02-10 02:07:02] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\maybesisi.ps1 | Reasons=NONE
+[2026-02-10 02:07:15] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\coksafe.ps1 | Reasons=NONE
+[2026-02-10 02:07:15] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\maybesisi.ps1 | Reasons=NONE
+[2026-02-10 02:08:14] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\coksafe.ps1 | Reasons=NONE
+[2026-02-10 02:08:14] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\maybesisi.ps1 | Reasons=NONE
+[2026-02-10 02:08:14] | MALWARE | Risk=110 | C:/Users/berke/Desktop/mini_av/teetststs\soevil.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-10 02:14:01] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\coksafe.ps1 | Reasons=NONE
+[2026-02-10 02:14:01] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\maybesisi.ps1 | Reasons=NONE
+[2026-02-10 02:14:21] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\coksafe.ps1 | Reasons=NONE
+[2026-02-10 02:14:21] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\maybesisi.ps1 | Reasons=NONE
+[2026-02-10 02:14:21] | MALWARE | Risk=110 | C:/Users/berke/Desktop/mini_av/teetststs\soevil.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-10 02:14:26] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\coksafe.ps1 | Reasons=NONE
+[2026-02-10 02:14:26] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\maybesisi.ps1 | Reasons=NONE
+[2026-02-10 02:22:04] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\coksafe.ps1 | Reasons=NONE
+[2026-02-10 02:22:04] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\maybesisi.ps1 | Reasons=NONE
+[2026-02-10 02:25:04] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\coksafe.ps1 | Reasons=NONE
+[2026-02-10 02:25:04] | CLEAN | Risk=10 | C:/Users/berke/Desktop/mini_av/teetststs\maybesisi.ps1 | Reasons=NONE
+[2026-02-13 01:21:09] | CLEAN | Risk=10 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\base64.ps1 | Reasons=NONE
+[2026-02-13 01:21:09] | MALWARE | Risk=150 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\malware.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-13 01:21:09] | CLEAN | Risk=10 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\safe.ps1 | Reasons=NONE
+[2026-02-13 01:21:09] | MALWARE | Risk=150 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\suspicious.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-13 01:33:10] | SUSPICIOUS | Risk=40 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\base64.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 01:33:10] | CLEAN | Risk=10 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\safe.ps1 | Reasons=NONE
+[2026-02-13 01:33:10] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\suspicious.ps1 | Reasons=NONE
+[2026-02-13 01:37:42] | SUSPICIOUS | Risk=40 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\base64.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 01:37:42] | CLEAN | Risk=10 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\safe.ps1 | Reasons=NONE
+[2026-02-13 01:37:42] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\suspicious.ps1 | Reasons=NONE
+[2026-02-13 01:37:51] | SUSPICIOUS | Risk=40 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\base64.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 01:37:51] | CLEAN | Risk=10 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\safe.ps1 | Reasons=NONE
+[2026-02-13 01:37:51] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\suspicious.ps1 | Reasons=NONE
+[2026-02-13 01:38:10] | SUSPICIOUS | Risk=40 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\base64.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 01:38:10] | CLEAN | Risk=10 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\safe.ps1 | Reasons=NONE
+[2026-02-13 01:38:10] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\suspicious.ps1 | Reasons=NONE
+[2026-02-13 01:47:01] | SUSPICIOUS | Risk=40 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\base64.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 01:47:01] | CLEAN | Risk=10 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\safe.ps1 | Reasons=NONE
+[2026-02-13 01:47:01] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\suspicious.ps1 | Reasons=NONE
+[2026-02-13 01:50:49] | SUSPICIOUS | Risk=40 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\base64.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 01:50:49] | CLEAN | Risk=10 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\safe.ps1 | Reasons=NONE
+[2026-02-13 01:50:49] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\suspicious.ps1 | Reasons=NONE
+[2026-02-13 01:51:02] | SUSPICIOUS | Risk=40 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\base64.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 01:51:02] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\malware.ps1 | Reasons=NONE
+[2026-02-13 01:51:02] | CLEAN | Risk=10 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\safe.ps1 | Reasons=NONE
+[2026-02-13 01:51:02] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\suspicious.ps1 | Reasons=NONE
+[2026-02-13 01:51:34] | SUSPICIOUS | Risk=40 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\base64.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 01:51:34] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\malware.ps1 | Reasons=NONE
+[2026-02-13 01:51:34] | CLEAN | Risk=10 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\safe.ps1 | Reasons=NONE
+[2026-02-13 01:51:34] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\suspicious.ps1 | Reasons=NONE
+[2026-02-13 02:12:25] | SUSPICIOUS | Risk=40 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\base64.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 02:12:25] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\malware.ps1 | Reasons=NONE
+[2026-02-13 02:12:25] | CLEAN | Risk=10 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\safe.ps1 | Reasons=NONE
+[2026-02-13 02:12:25] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Kodlama Projeleri/mini_av/Deneme Klasörü\suspicious.ps1 | Reasons=NONE
+[2026-02-13 02:32:16] | SUSPICIOUS | Risk=40 | C:/Users/berke/Desktop/Deneme Klasörü\base64.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 02:32:16] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Deneme Klasörü\malware.ps1 | Reasons=NONE
+[2026-02-13 02:32:16] | CLEAN | Risk=10 | C:/Users/berke/Desktop/Deneme Klasörü\safe.ps1 | Reasons=NONE
+[2026-02-13 02:32:16] | CLEAN | Risk=30 | C:/Users/berke/Desktop/Deneme Klasörü\suspicious.ps1 | Reasons=NONE
+[2026-02-13 02:46:53] | SUSPICIOUS | Risk=40 | C:\Users\berke\Desktop\Deneme Klasörü\base64.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 02:46:53] | CLEAN | Risk=30 | C:\Users\berke\Desktop\Deneme Klasörü\malware.ps1 | Reasons=NONE
+[2026-02-13 02:46:53] | CLEAN | Risk=10 | C:\Users\berke\Desktop\Deneme Klasörü\safe.ps1 | Reasons=NONE
+[2026-02-13 02:46:53] | CLEAN | Risk=30 | C:\Users\berke\Desktop\Deneme Klasörü\suspicious.ps1 | Reasons=NONE
+[2026-02-13 02:54:01] | SUSPICIOUS | Risk=40 | C:\Users\berke\Desktop\Deneme Klasörü\base64.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 02:54:01] | CLEAN | Risk=30 | C:\Users\berke\Desktop\Deneme Klasörü\malware.ps1 | Reasons=NONE
+[2026-02-13 02:54:01] | CLEAN | Risk=10 | C:\Users\berke\Desktop\Deneme Klasörü\safe.ps1 | Reasons=NONE
+[2026-02-13 02:54:01] | CLEAN | Risk=30 | C:\Users\berke\Desktop\Deneme Klasörü\suspicious.ps1 | Reasons=NONE
+[2026-02-13 02:55:43] | CLEAN | Risk=10 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\111111.ps1 | Reasons=NONE
+[2026-02-13 02:55:43] | SUSPICIOUS | Risk=40 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\asdasdasd.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 02:55:43] | CLEAN | Risk=30 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\dsadasdsa.ps1 | Reasons=NONE
+[2026-02-13 02:55:43] | CLEAN | Risk=30 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\fffffff.ps1 | Reasons=NONE
+[2026-02-13 03:02:40] | CLEAN | Risk=10 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\111111.ps1 | Reasons=NONE
+[2026-02-13 03:02:40] | SUSPICIOUS | Risk=40 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\asdasdasd.ps1 | Reasons=HEURISTICS_TRIGGER
+[2026-02-13 03:02:40] | CLEAN | Risk=30 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\dsadasdsa.ps1 | Reasons=NONE
+[2026-02-13 03:02:40] | CLEAN | Risk=30 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\fffffff.ps1 | Reasons=NONE
+[2026-02-13 03:11:05] | CLEAN | Risk=10 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\111111.ps1 | Reasons=NONE
+[2026-02-13 03:11:05] | CLEAN | Risk=10 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\asdasdasd.ps1 | Reasons=NONE
+[2026-02-13 03:11:05] | MALWARE | Risk=145 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\dsadasdsa.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-13 03:11:05] | MALWARE | Risk=145 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\fffffff.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-13 03:11:47] | CLEAN | Risk=10 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\111111.ps1 | Reasons=NONE
+[2026-02-13 03:11:47] | CLEAN | Risk=10 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\asdasdasd.ps1 | Reasons=NONE
+[2026-02-13 03:11:47] | MALWARE | Risk=145 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\dsadasdsa.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-13 03:11:47] | MALWARE | Risk=145 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\fffffff.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-13 03:12:23] | CLEAN | Risk=10 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\111111.ps1 | Reasons=NONE
+[2026-02-13 03:12:23] | CLEAN | Risk=10 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\asdasdasd.ps1 | Reasons=NONE
+[2026-02-13 03:12:23] | MALWARE | Risk=145 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\dsadasdsa.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-13 03:12:23] | MALWARE | Risk=145 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\fffffff.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER
+[2026-02-13 03:15:32] | CLEAN | Risk=10 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\111111.ps1 | Reasons=NONE
+[2026-02-13 03:15:32] | CLEAN | Risk=10 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\asdasdasd.ps1 | Reasons=NONE
+[2026-02-13 03:15:32] | MALWARE | Risk=145 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\dsadasdsa.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-13 03:15:32] | MALWARE | Risk=145 | C:\Users\berke\Desktop\uheruherugıhewrhuıgü\fffffff.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-13 03:37:35] | MALWARE | Risk=145 | C:\Users\berke\Desktop\Kodlama Projeleri\mini_av\restored\dsadasdsa.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-13 03:38:21] | MALWARE | Risk=145 | C:\Users\berke\Desktop\Kodlama Projeleri\mini_av\restored\dsadasdsa.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-13 15:56:15] | MALWARE | Risk=145 | C:\Users\berke\Desktop\Kodlama Projeleri\mini_av\restored\dsadasdsa.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-13 15:56:48] | MALWARE | Risk=145 | C:\Users\berke\Desktop\Kodlama Projeleri\mini_av\restored\dsadasdsa.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED
+[2026-02-13 16:10:40] | MALWARE | Risk=145 | C:\Users\berke\Desktop\Kodlama Projeleri\mini_av\restored\dsadasdsa.ps1 | Reasons=HASH_MATCH,HEURISTICS_TRIGGER,QUARANTINED

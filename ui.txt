@@ -1,0 +1,128 @@
+import tkinter as tk
+from tkinter import ttk, filedialog, messagebox
+import os
+
+from scanner import scan_directory
+from hash_utils import calculate_sha256
+from whitelist_manager import add_to_whitelist
+from quarantine_manager import restore_file, QUARANTINE_DIR
+
+
+class AntivirusGUI:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Mini Antivirus")
+        self.root.geometry("1000x600")
+
+        self.create_widgets()
+
+    def create_widgets(self):
+        # ===== TOP BAR =====
+        top_frame = tk.Frame(self.root)
+        top_frame.pack(fill=tk.X, padx=10, pady=5)
+
+        tk.Button(top_frame, text="📂 Dizin Tara", command=self.scan_dir).pack(side=tk.LEFT, padx=5)
+        tk.Button(top_frame, text="✅ Manuel Whitelist", command=self.manual_whitelist).pack(side=tk.LEFT, padx=5)
+        tk.Button(top_frame, text="🛑 Karantina", command=self.open_quarantine).pack(side=tk.LEFT, padx=5)
+
+        # ===== RESULT TABLE =====
+        columns = ("path", "status", "risk", "hits", "quarantined")
+
+        self.tree = ttk.Treeview(self.root, columns=columns, show="headings")
+        self.tree.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+
+        self.tree.heading("path", text="Dosya")
+        self.tree.heading("status", text="Durum")
+        self.tree.heading("risk", text="Risk Skoru")
+        self.tree.heading("hits", text="Heuristic Hits")
+        self.tree.heading("quarantined", text="Karantina")
+
+        self.tree.column("path", width=400)
+        self.tree.column("status", width=100)
+        self.tree.column("risk", width=80)
+        self.tree.column("hits", width=250)
+        self.tree.column("quarantined", width=80)
+
+    # ===== SCAN =====
+    def scan_dir(self):
+        path = filedialog.askdirectory()
+        if not path:
+            return
+
+        self.tree.delete(*self.tree.get_children())
+
+        results = scan_directory(path)
+
+        for r in results:
+            self.tree.insert("", tk.END, values=(
+                r["path"],
+                r["status"],
+                r["risk_score"],
+                ", ".join(r.get("heuristic_hits", [])),
+                "YES" if r.get("quarantined") else "NO"
+            ))
+
+    # ===== MANUAL WHITELIST =====
+    def manual_whitelist(self):
+        path = filedialog.askopenfilename()
+        if not path:
+            return
+
+        try:
+            file_hash = calculate_sha256(path)
+            add_to_whitelist(file_hash)
+            messagebox.showinfo("Whitelist", "Dosya manuel olarak whitelist'e eklendi.")
+        except Exception as e:
+            messagebox.showerror("Hata", str(e))
+
+    # ===== QUARANTINE WINDOW =====
+    def open_quarantine(self):
+        if not os.path.exists(QUARANTINE_DIR):
+            messagebox.showinfo("Karantina", "Karantina boş.")
+            return
+
+        qwin = tk.Toplevel(self.root)
+        qwin.title("Karantina")
+        qwin.geometry("700x400")
+
+        listbox = tk.Listbox(qwin)
+        listbox.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+
+        files = os.listdir(QUARANTINE_DIR)
+        for f in files:
+            listbox.insert(tk.END, f)
+
+        def restore_selected():
+            sel = listbox.curselection()
+            if not sel:
+                return
+
+            filename = listbox.get(sel[0])
+            quarantined_path = os.path.join(QUARANTINE_DIR, filename)
+
+            restore_dir = filedialog.askdirectory(title="Geri yüklenecek dizin")
+            if not restore_dir:
+                return
+
+            success, restored_path = restore_file(quarantined_path, restore_dir)
+            if not success:
+                messagebox.showerror("Restore", restored_path)
+                return
+
+            file_hash = calculate_sha256(restored_path)
+            add_to_whitelist(file_hash)
+
+            messagebox.showinfo(
+                "Restore",
+                "Dosya geri yüklendi ve whitelist'e eklendi."
+            )
+
+            listbox.delete(sel[0])
+
+        tk.Button(qwin, text="🔓 Restore Et", command=restore_selected).pack(pady=5)
+
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = AntivirusGUI(root)
+    root.mainloop()

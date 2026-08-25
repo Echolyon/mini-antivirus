@@ -1,0 +1,30 @@
+MiniAV - Son Kullanıcı Lisans Sözleşmesi (EULA)
+Sürüm 1.0
+Copyright (c) 2026 DoctorKleiner
+
+1. Lisans Hakkı
+Bu yazılım, ücretsiz olarak son kullanıcıya sunulmaktadır.
+Kullanıcı, yazılımı kişisel ve ticari olmayan amaçlarla kullanabilir.
+
+2. Kaynak Kod
+Bu yazılımın kaynak kodu paylaşılmamaktadır.
+Yazılımın tersine mühendisliği, kaynak kodunun çıkarılması veya
+değiştirilmiş sürümlerinin dağıtılması yasaktır.
+
+3. Dağıtım
+Yazılım, orijinal ve değiştirilmemiş haliyle paylaşılabilir.
+Yazılımın içeriği üzerinde değişiklik yapılarak yeniden dağıtılması yasaktır.
+
+4. Sorumluluk Reddi
+Bu yazılım "olduğu gibi" sunulmaktadır.
+Herhangi bir garanti verilmez.
+Yazılımın kullanımından doğabilecek doğrudan veya dolaylı zararlardan
+geliştirici sorumlu tutulamaz.
+
+5. Güvenlik Uyarısı
+Bu yazılım profesyonel bir antivirüs çözümü değildir.
+Deneysel ve yardımcı bir tarama aracıdır.
+Gerçek zamanlı koruma veya tam sistem güvenliği garanti etmez.
+
+6. Kabul
+Bu yazılımı indirip kullanan kişi, bu lisans şartlarını kabul etmiş sayılır.
